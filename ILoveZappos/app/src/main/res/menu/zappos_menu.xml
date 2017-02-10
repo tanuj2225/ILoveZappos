@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/search"
+        android:title="@string/search_title"
+        android:icon="@drawable/search"
+        android:hint="@string/search_hint"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+        />
+    <item
+        android:id="@+id/myCart"
+        android:icon="@drawable/cart"
+        app:actionLayout="@layout/notification"
+        android:title="Cart"
+        app:showAsAction="always" />
+    <item android:id="@+id/Label"
+        android:title="UserName"
+        app:showAsAction="collapseActionView"
+        android:enabled="false"/>
+    <item android:id="@+id/logout"
+        android:title="logout"
+        app:showAsAction="collapseActionView">
+    </item>
+    </menu>

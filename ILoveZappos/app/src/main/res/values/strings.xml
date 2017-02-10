@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">I ❤ Zappos</string>
+    <string name="search_title">Search for products</string>
+    <string name="search_hint">Search for products</string>
+    <string name="welcome_label">Welcome to I ❤ Zappos.com</string>
+    <string name="search_suggestion">Tap on the search icon present in the action bar and search for products.No suggestions are displayed as of now.</string>
+    <string name="title_activity_product_detail">productDetail</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_product_detail_layout">ProductDetailLayout</string>
+    <string name="title_activity_productpopup">productpopup</string>
+    <string name="title_activity_detailing_pop_up">DetailingPopUp</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_zappos__signup">zappos_Signup</string>
+    <string name="productBy">Product By</string>
+    <string name="search_keyword">Search Keyword:</string>
+    <string name="choose_label">Choose Quantity: </string>
+    <string name="no_discount">No Discount</string>
+    <string name="confirm">confirm</string>
+    <string name="cancel">cancel</string>
+    <string name="discount">Discount</string>
+    <string name="perunit"> per unit</string>
+    <string name="addedon">Added to Cart on:</string>
+    <string name="emptycart">No Items in Cart</string>
+
+        <string-array
+            name="quantities">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        </string-array>
+
+</resources>
